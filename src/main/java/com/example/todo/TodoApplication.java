@@ -14,12 +14,12 @@ public class TodoApplication {
 		SpringApplication.run(TodoApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	ApplicationRunner applicationRunner(TodoRepository todoRepository) {
 		return args -> {
 			todoRepository.save( new Todo("Test 1", "Test a description"));
 			todoRepository.save( new Todo("Test 2", "Test a description"));
 			todoRepository.save( new Todo("Test 3", "Test a description"));
 		};
-	}
+	}*/
 }
